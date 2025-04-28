@@ -13,3 +13,5 @@
 1. Клонируй репозиторий:
    ```bash
    git clone https://github.com/doge277/sb1-wj8mxrhs.git
+
+Автор: Barys
