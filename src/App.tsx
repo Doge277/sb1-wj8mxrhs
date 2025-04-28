@@ -19,7 +19,6 @@ function App() {
           {/* Условный рендеринг компонентов в зависимости от текущей страницы */}
           {currentPage === 'home' && <HomePage onStartLearning={() => setCurrentPage('cards')} />}
           {currentPage === 'about' && <AboutPage />}
-          {currentPage === 'cards' && <FlashcardApp onGoHome={() => setCurrentPage('home')} />}
         </Layout>
       </LanguageProvider>
     </ThemeProvider>
