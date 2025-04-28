@@ -139,12 +139,6 @@ const FlashcardApp: React.FC<{ onGoHome: () => void }> = ({ onGoHome }) => {
             <Star className="w-16 h-16 text-yellow-400 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">{t('completionMessage')}</h3>
             <p className="mb-6">{t('congratulations')}</p>
-            <button
-              onClick={onGoHome}
-              className="px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
-            >
-              {t('goBack')}
-            </button>
           </div>
         ) : totalCards > 0 ? (
           <Flashcard
