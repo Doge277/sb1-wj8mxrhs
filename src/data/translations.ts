@@ -43,7 +43,6 @@ export const translations = {
     shuffle: 'Shuffle',
     completionMessage: 'Congratulations! 🌟',
     congratulations: 'You have successfully completed all the cards in this category!',
-    goBack: 'Go Back to Home',
     footer: {
       rights: '© 2025 MathCards. All rights reserved.',
       madeWith: 'Made with',
@@ -94,7 +93,6 @@ export const translations = {
     shuffle: 'Перемешать',
     completionMessage: 'Поздравляем! 🌟',
     congratulations: 'Вы успешно завершили все карточки в этой категории!',
-    goBack: 'Вернуться на главную',
     footer: {
       rights: '© 2025 MathCards. Все права защищены.',
       madeWith: 'Сделано с',
